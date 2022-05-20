@@ -1,4 +1,4 @@
-# generator-up [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
+# generator-up [![NPM version][npm-image]][https://www.npmjs.com/package/generator-up]
 > Up package generator
 
 ## Installation
