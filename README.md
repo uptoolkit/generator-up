@@ -1,4 +1,5 @@
-# generator-up [![NPM version][npm-image]][https://www.npmjs.com/package/generator-up]
+# Up Package Generator
+
 > Up package generator
 
 ## Installation
