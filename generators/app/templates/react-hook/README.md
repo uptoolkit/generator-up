@@ -3,8 +3,6 @@
 Explain in one sentence why you have created this package
 
 [![Latest Version on NPM](https://img.shields.io/npm/v/<%= package %>.svg?style=flat-square)](https://npmjs.com/package/<%= package %>)
-![npm](https://img.shields.io/npm/dt/use-up)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 
 ## Getting started
 
