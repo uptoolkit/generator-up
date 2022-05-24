@@ -25,16 +25,26 @@ Of course, you will need to adapt it to your needs. Most important part will be 
 
 Example with this package : [https://github.com/uptoolkit/up-react](https://github.com/uptoolkit/up-react).
 
+## Using it with the Up Context Provider
+
+When you create a package it might be cumbersome to access some very common data that you want to share (exemple the url of your api, the translations, a message error handler etc.)
+
+That's why you can use the Up React hooks to handle that.
+
+See : [https://github.com/uptoolkit/up-react](https://github.com/uptoolkit/up-react)
+
 ## Publishing your package
 
 When you will publish your package, you will need to define the dependencies that you don't want to be exported with your script. See the documentation here: [https://vitejs.dev/guide/build.html#library-mode](https://vitejs.dev/guide/build.html#library-mode).
 
-There is also a little script helper to publish directly your package.
+There is also a little script helper to publish directly your package into NPM.
 
 ````bash
 cd YourPackageRootFolder
 bash publish.sh
 ````
+
+For more information : [https://docs.npmjs.com/creating-and-publishing-scoped-public-packages](https://docs.npmjs.com/creating-and-publishing-scoped-public-packages)
 
 ## License
 
