@@ -17,17 +17,28 @@ Then generate your new project:
 yo up
 ```
 
-## Getting To Know Yeoman
+## Getting started
 
- * Yeoman has a heart of gold.
- * Yeoman is a person with feelings and opinions, but is very easy to work with.
- * Yeoman can be too opinionated at times but is easily convinced not to be.
- * Feel free to [learn more about Yeoman](http://yeoman.io/).
+The script will generate a Typescript boilerplate based on [Vite.js](https://vitejs.dev/) and with a default example folder (for testing) and a src folder.
+
+Of course, you will need to adapt it to your needs. Most important part will be inside the src folders and package.json folder.
+
+Example with this package : [https://github.com/uptoolkit/up-react](https://github.com/uptoolkit/up-react).
+
+## Publishing your package
+
+When you will publish your package, you will need to define the dependencies that you don't want to be exported with your script. See the documentation here: [https://vitejs.dev/guide/build.html#library-mode](https://vitejs.dev/guide/build.html#library-mode).
+
+There is also a little script helper to publish directly your package.
+
+````bash
+cd YourPackageRootFolder
+bash publish.sh
+````
 
 ## License
 
-MIT © [danielsum](https://www.cherrypulp.com)
-
+MIT © [danielsum](https://www.uptoolkit.com)
 
 [npm-image]: https://badge.fury.io/js/generator-up.svg
 [npm-url]: https://npmjs.org/package/generator-up
