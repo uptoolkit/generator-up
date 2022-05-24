@@ -1,7 +1,7 @@
 {
   "name": "generator-up",
   "version": "0.1.1",
-  "description": "Up package generator (for React, AntD, Laravel etc.)",
+  "description": "Package generator (for React package, AntD, Up Package etc.)",
   "homepage": "https://uptoolkit.com",
   "author": {
     "name": "danielsum",
