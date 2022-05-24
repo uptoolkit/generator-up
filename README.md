@@ -1,6 +1,6 @@
 # Up Package Generator
 
-> Up package generator
+> Up package generator to create React Component package or React Hook Package
 
 ## Installation
 
